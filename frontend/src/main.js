@@ -4,7 +4,8 @@ import router from './router'
 
 // Set API URL
 
-Vue.prototype.apiurl = "http://localhost:4000"
+// Vue.prototype.apiurl = "http://localhost:4000"
+Vue.prototype.apiurl = "https://testapi.jearally.com"
 
 // Import Bootstrap
 

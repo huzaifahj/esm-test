@@ -16,3 +16,7 @@
 - Endpoints are `GET /users/:email` and `POST /users`
 - Served locally through `npm install` + `npm run serve` and accessible from localhost:4000
 - Deployed through included Dockerfile
+
+## Database
+
+- Visit at https://docs.google.com/spreadsheets/d/1YtC9kyD5T_ZE6BHT9KTlDj0ni7tqT6O9s8-HQIUpi_Q/edit?usp=sharing
