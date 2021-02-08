@@ -12,7 +12,7 @@
               name="first_name"
               label="First Name"
               placeholder="John"
-              validation="required|alpha:latin"
+              validation="required|matches:/^[a-zA-Z ]*$/"
               error-behavior="submit"
             />
             <FormulateInput
@@ -20,7 +20,7 @@
               name="last_name"
               label="Last Name"
               placeholder="Doe"
-              validation="required|alpha:latin"
+              validation="required|matches:/^[a-zA-Z ]*$/"
               error-behavior="submit"
             />
             <FormulateInput
@@ -36,7 +36,7 @@
               name="company"
               label="Company Name"
               placeholder="Acme Limited"
-              validation="required|alpha:latin"
+              validation="required|matches:/^[a-zA-Z ]*$/"
               error-behavior="submit"
             />
             <FormulateInput
@@ -44,7 +44,7 @@
               name="company_role"
               label="Current Role"
               placeholder="Chief Marketing Officer"
-              validation="required|alpha:latin"
+              validation="required|matches:/^[a-zA-Z ]*$/"
               error-behavior="submit"
             />
             <div v-if="loading">
