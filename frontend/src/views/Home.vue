@@ -12,7 +12,7 @@
               name="first_name"
               label="First Name"
               placeholder="John"
-              validation="required"
+              validation="required|alpha:latin"
               error-behavior="submit"
             />
             <FormulateInput
@@ -20,7 +20,7 @@
               name="last_name"
               label="Last Name"
               placeholder="Doe"
-              validation="required"
+              validation="required|alpha:latin"
               error-behavior="submit"
             />
             <FormulateInput
@@ -36,7 +36,7 @@
               name="company"
               label="Company Name"
               placeholder="Acme Limited"
-              validation="required"
+              validation="required|alpha:latin"
               error-behavior="submit"
             />
             <FormulateInput
@@ -44,7 +44,7 @@
               name="company_role"
               label="Current Role"
               placeholder="Chief Marketing Officer"
-              validation="required"
+              validation="required|alpha:latin"
               error-behavior="submit"
             />
             <div v-if="loading">
